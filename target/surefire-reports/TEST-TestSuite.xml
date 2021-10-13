@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="201.872" tests="13" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="webdriver.chrome.driver" value="C:\WINDOWS\system32\config\systemprofile\.cache\selenium\chromedriver\win32\94.0.4606.61\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Irala Dinesh\Desktop\CGISprint_$2FrameWorks\CGISprint_$2FrameWorks\target\test-classes;C:\Users\Irala Dinesh\Desktop\CGISprint_$2FrameWorks\CGISprint_$2FrameWorks\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-java\6.11.0\cucumber-java-6.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-core\6.11.0\cucumber-core-6.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-gherkin\6.11.0\cucumber-gherkin-6.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.11.0\cucumber-gherkin-messages-6.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-plugin\6.11.0\cucumber-plugin-6.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\docstring\6.11.0\docstring-6.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-testng\6.11.0\cucumber-testng-6.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\masterthought\cucumber-reporting\5.5.3\cucumber-reporting-5.5.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.1\jackson-databind-2.12.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.1\jackson-annotations-2.12.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.1\jackson-core-2.12.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.1\jackson-datatype-jsr310-2.12.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\velocity\velocity-engine-core\2.2\velocity-engine-core-2.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\joda-time\joda-time\2.10.9\joda-time-2.10.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20200713.1\owasp-java-html-sanitizer-20200713.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-junit\6.10.4\cucumber-junit-6.10.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\github\bonigarcia\webdrivermanager\5.0.3\webdrivermanager-5.0.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.8.8\gson-2.8.8.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java\3.2.12\docker-java-3.2.12.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java-core\3.2.12\docker-java-core-3.2.12.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java-api\3.2.12\docker-java-api-3.2.12.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.12\docker-java-transport-httpclient5-3.2.12.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java-transport\3.2.12\docker-java-transport-3.2.12.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin"/>
+    <property name="sun.java.command" value="C:\Windows\Temp\surefire13491347039629980629\surefirebooter16125957686632450681.jar C:\Windows\Temp\surefire13491347039629980629 2021-10-12T17-38-45_587-jvmRun1 surefire673110586399454359tmp surefire_01359992631140365438tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Irala Dinesh\Desktop\CGISprint_$2FrameWorks\CGISprint_$2FrameWorks\target\test-classes;C:\Users\Irala Dinesh\Desktop\CGISprint_$2FrameWorks\CGISprint_$2FrameWorks\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-java\6.11.0\cucumber-java-6.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-core\6.11.0\cucumber-core-6.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-gherkin\6.11.0\cucumber-gherkin-6.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.11.0\cucumber-gherkin-messages-6.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-plugin\6.11.0\cucumber-plugin-6.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\docstring\6.11.0\docstring-6.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-testng\6.11.0\cucumber-testng-6.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\masterthought\cucumber-reporting\5.5.3\cucumber-reporting-5.5.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.1\jackson-databind-2.12.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.1\jackson-annotations-2.12.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.1\jackson-core-2.12.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.12.1\jackson-datatype-jsr310-2.12.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\velocity\velocity-engine-core\2.2\velocity-engine-core-2.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\joda-time\joda-time\2.10.9\joda-time-2.10.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.0\plexus-utils-3.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20200713.1\owasp-java-html-sanitizer-20200713.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\cucumber\cucumber-junit\6.10.4\cucumber-junit-6.10.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\github\bonigarcia\webdrivermanager\5.0.3\webdrivermanager-5.0.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.8.8\gson-2.8.8.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java\3.2.12\docker-java-3.2.12.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java-core\3.2.12\docker-java-core-3.2.12.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java-api\3.2.12\docker-java-api-3.2.12.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.12\docker-java-transport-httpclient5-3.2.12.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java-transport\3.2.12\docker-java-transport-3.2.12.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.12"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Irala Dinesh\Desktop\CGISprint_$2FrameWorks\CGISprint_$2FrameWorks"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Windows\Temp\surefire13491347039629980629\surefirebooter16125957686632450681.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.12+8-LTS-237"/>
+    <property name="user.name" value="LAPTOP-HCSTCB5O$"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\WINDOWS\system32\config\systemprofile\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="java.version" value="11.0.12"/>
+    <property name="user.dir" value="C:\Users\Irala Dinesh\Desktop\CGISprint_$2FrameWorks\CGISprint_$2FrameWorks"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Java\jdk-14\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-11.0.12bin;C:\Maven\bin\;C:\Program Files\Git\cmd;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.12+8-LTS-237"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;User should move from DemoWebShop page to Registration page&quot;, &quot;Optional[DemoWebShop Registraion process]&quot;](1)" classname="MyRunner.TestRunner" time="38.592">
+    <system-out><![CDATA[
+Scenario: User should move from DemoWebShop page to Registration page &amp#27;[90m# src/test/java/Features/1_RegisterPage.feature:2&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on DemoWebShop page&amp#27;[0m                                   &amp#27;[90m# StepDefinition.$1_RegisterModule.user_is_on_demo_web_shop_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser click on Register button&amp#27;[0m                                  &amp#27;[90m# StepDefinition.$1_RegisterModule.user_click_on_register_button()&amp#27;[0m
+Registration page opened succesfully
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser is on Registration Page&amp#27;[0m                                   &amp#27;[90m# StepDefinition.$1_RegisterModule.user_is_on_registration_page()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 6889
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 12, 2021 5:39:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Test Registration process with Valid credintials&quot;, &quot;Optional[DemoWebShop Registraion process]&quot;](2)" classname="MyRunner.TestRunner" time="12.653">
+    <system-out><![CDATA[
+Scenario Outline: Test Registration process with Valid credintials &amp#27;[90m# src/test/java/Features/1_RegisterPage.feature:18&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on DemoWebShop page&amp#27;[0m                                &amp#27;[90m# StepDefinition.$1_RegisterModule.user_is_on_demo_web_shop_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser click on Register button&amp#27;[0m                               &amp#27;[90m# StepDefinition.$1_RegisterModule.user_click_on_register_button()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on the &amp#27;[0m&amp#27;[32m&amp#27;[1mmale&amp#27;[0m                                      &amp#27;[90m# StepDefinition.$1_RegisterModule.user_clicks_on_the(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1mSurya&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1mKalyan&amp#27;[0m                                 &amp#27;[90m# StepDefinition.$1_RegisterModule.user_enters_and(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser types &amp#27;[0m&amp#27;[32m&amp#27;[1mirdinesh@gmail.com&amp#27;[0m                                &amp#27;[90m# StepDefinition.$1_RegisterModule.user_types(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser Types &amp#27;[0m&amp#27;[32m&amp#27;[1msurya1234&amp#27;[0m&amp#27;[32m , &amp#27;[0m&amp#27;[32m&amp#27;[1msurya1234&amp#27;[0m                             &amp#27;[90m# StepDefinition.$1_RegisterModule.user_Types_(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser Clicks on Register button&amp#27;[0m                               &amp#27;[90m# StepDefinition.$1_RegisterModule.user_Clicks_on_register_button()&amp#27;[0m
+Entered valid Details
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser is succesfully registered&amp#27;[0m                              &amp#27;[90m# StepDefinition.$1_RegisterModule.user_is_succesfully_registered()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 29382
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 12, 2021 5:39:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Test Registration process with inValid credintials&quot;, &quot;Optional[DemoWebShop Registraion process]&quot;](3)" classname="MyRunner.TestRunner" time="9.261">
+    <system-out><![CDATA[
+Scenario Outline: Test Registration process with inValid credintials &amp#27;[90m# src/test/java/Features/1_RegisterPage.feature:31&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on DemoWebShop page&amp#27;[0m                                  &amp#27;[90m# StepDefinition.$1_RegisterModule.user_is_on_demo_web_shop_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser click on Register button&amp#27;[0m                                 &amp#27;[90m# StepDefinition.$1_RegisterModule.user_click_on_register_button()&amp#27;[0m
+The gender was not selected
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on the &amp#27;[0m&amp#27;[32m&amp#27;[1mother&amp#27;[0m                                       &amp#27;[90m# StepDefinition.$1_RegisterModule.user_clicks_on_the(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1msam&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1mruth&amp#27;[0m                                       &amp#27;[90m# StepDefinition.$1_RegisterModule.user_enters_and(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser types &amp#27;[0m&amp#27;[32m&amp#27;[1mkalyani12@gmail.com&amp#27;[0m                                 &amp#27;[90m# StepDefinition.$1_RegisterModule.user_types(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser Types &amp#27;[0m&amp#27;[32m&amp#27;[1mYogesh098@&amp#27;[0m&amp#27;[32m , &amp#27;[0m&amp#27;[32m&amp#27;[1mYogesh098@&amp#27;[0m                             &amp#27;[90m# StepDefinition.$1_RegisterModule.user_Types_(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser Clicks on Register button&amp#27;[0m                                 &amp#27;[90m# StepDefinition.$1_RegisterModule.user_Clicks_on_register_button()&amp#27;[0m
+Oops!invalid data,please try with valid data
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should not able to registered&amp#27;[0m                            &amp#27;[90m# StepDefinition.$1_RegisterModule.user_should_not_able_to_registered()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 46110
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 12, 2021 5:39:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Test User Login with Valid Credentials&quot;, &quot;Optional[Login Functionality on Demo Web Page]&quot;](4)" classname="MyRunner.TestRunner" time="9.288">
+    <system-out><![CDATA[
+Scenario Outline: Test User Login with Valid Credentials                 &amp#27;[90m# src/test/java/Features/2_LoginPage.feature:13&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser should be on Home page&amp#27;[0m                                      &amp#27;[90m# StepDefinition.$2_LoginModule.user_should_be_on_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser clicks on Login button&amp#27;[0m                                       &amp#27;[90m# StepDefinition.$2_LoginModule.user_clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser should enter Registered &amp#27;[0m&amp#27;[32m&amp#27;[1mjohnfletcher@gmail.com&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1mmypas1234$&amp#27;[0m &amp#27;[90m# StepDefinition.$2_LoginModule.user_should_enter_registered_and(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser should click on Log in button&amp#27;[0m                                 &amp#27;[90m# StepDefinition.$2_LoginModule.user_should_click_on_log_in_button()&amp#27;[0m
+Logged in Successfully!
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should be able to logged in successfully&amp#27;[0m                     &amp#27;[90m# StepDefinition.$2_LoginModule.user_should_be_able_to_logged_in_successfully()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 30946
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 12, 2021 5:39:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Test User Login with InValid Credentials&quot;, &quot;Optional[Login Functionality on Demo Web Page]&quot;](5)" classname="MyRunner.TestRunner" time="7.738">
+    <system-out><![CDATA[
+Scenario Outline: Test User Login with InValid Credentials            &amp#27;[90m# src/test/java/Features/2_LoginPage.feature:25&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser should be on Home page&amp#27;[0m                                   &amp#27;[90m# StepDefinition.$2_LoginModule.user_should_be_on_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser clicks on Login button&amp#27;[0m                                    &amp#27;[90m# StepDefinition.$2_LoginModule.user_clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser should enter Unregistered &amp#27;[0m&amp#27;[32m&amp#27;[1madmin123@gmail.com&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1mmypass123&amp#27;[0m &amp#27;[90m# StepDefinition.$2_LoginModule.user_should_enter_unregistered_and(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser should click on Log in button&amp#27;[0m                              &amp#27;[90m# StepDefinition.$2_LoginModule.user_should_click_on_log_in_button()&amp#27;[0m
+No User Found!
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should not be able to logged in&amp#27;[0m                           &amp#27;[90m# StepDefinition.$2_LoginModule.user_should_not_be_able_to_logged_in()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 37004
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 12, 2021 5:40:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Test to validate Add to Cart functionality&quot;, &quot;Optional[Test item Search and Add Functionality on Demo Web Page]&quot;](6)" classname="MyRunner.TestRunner" time="14.576">
+    <system-out><![CDATA[
+Scenario Outline: Test to validate Add to Cart functionality                                   &amp#27;[90m# src/test/java/Features/3_SearchandAdd.feature:12&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser should be on Home Page by logging-in using &amp#27;[0m&amp#27;[32m&amp#27;[1mjohnfletcher@gmail.com&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1mmypass1234$&amp#27;[0m &amp#27;[90m# StepDefinition.$3_SearchAddModule.user_should_be_on_home_page_by_loggingin_using_and(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1mHealth Book&amp#27;[0m&amp#27;[32m in search bar&amp#27;[0m                                                   &amp#27;[90m# StepDefinition.$3_SearchAddModule.user_enters_in_search_bar(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on search button&amp#27;[0m                                                             &amp#27;[90m# StepDefinition.$3_SearchAddModule.user_clicks_on_search_button()&amp#27;[0m
+The product has been added to your shopping cart successfully
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Add to Cart button&amp#27;[0m                                                        &amp#27;[90m# StepDefinition.$3_SearchAddModule.user_clicks_on_add_to_cart_button()&amp#27;[0m
+Searched item found inside cart...
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser added &amp#27;[0m&amp#27;[32m&amp#27;[1mHealth Book&amp#27;[0m&amp#27;[32m should be added to shoppingCart&amp#27;[0m                                  &amp#27;[90m# StepDefinition.$3_SearchAddModule.user_added_should_be_added_to_shoppingcart(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 15224
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 12, 2021 5:40:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Test to validate Add to Cart functionality&quot;, &quot;Optional[Test item Search and Add Functionality on Demo Web Page]&quot;](7)" classname="MyRunner.TestRunner" time="12.451">
+    <system-out><![CDATA[
+Scenario Outline: Test to validate Add to Cart functionality                                   &amp#27;[90m# src/test/java/Features/3_SearchandAdd.feature:13&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser should be on Home Page by logging-in using &amp#27;[0m&amp#27;[32m&amp#27;[1mjohnfletcher@gmail.com&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1mmypass1234$&amp#27;[0m &amp#27;[90m# StepDefinition.$3_SearchAddModule.user_should_be_on_home_page_by_loggingin_using_and(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m14.1-inch Laptop&amp#27;[0m&amp#27;[32m in search bar&amp#27;[0m                                              &amp#27;[90m# StepDefinition.$3_SearchAddModule.user_enters_in_search_bar(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on search button&amp#27;[0m                                                             &amp#27;[90m# StepDefinition.$3_SearchAddModule.user_clicks_on_search_button()&amp#27;[0m
+The product has been added to your shopping cart successfully
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Add to Cart button&amp#27;[0m                                                        &amp#27;[90m# StepDefinition.$3_SearchAddModule.user_clicks_on_add_to_cart_button()&amp#27;[0m
+Searched item found inside cart...
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser added &amp#27;[0m&amp#27;[32m&amp#27;[1m14.1-inch Laptop&amp#27;[0m&amp#27;[32m should be added to shoppingCart&amp#27;[0m                             &amp#27;[90m# StepDefinition.$3_SearchAddModule.user_added_should_be_added_to_shoppingcart(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 16593
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 12, 2021 5:40:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Test to validate Add to Cart functionality&quot;, &quot;Optional[Test item Search and Add Functionality on Demo Web Page]&quot;](8)" classname="MyRunner.TestRunner" time="13.187">
+    <system-out><![CDATA[
+Scenario Outline: Test to validate Add to Cart functionality                                   &amp#27;[90m# src/test/java/Features/3_SearchandAdd.feature:14&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser should be on Home Page by logging-in using &amp#27;[0m&amp#27;[32m&amp#27;[1mjohnfletcher@gmail.com&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1mmypass1234$&amp#27;[0m &amp#27;[90m# StepDefinition.$3_SearchAddModule.user_should_be_on_home_page_by_loggingin_using_and(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1mBlack & White Diamond Heart&amp#27;[0m&amp#27;[32m in search bar&amp#27;[0m                                   &amp#27;[90m# StepDefinition.$3_SearchAddModule.user_enters_in_search_bar(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on search button&amp#27;[0m                                                             &amp#27;[90m# StepDefinition.$3_SearchAddModule.user_clicks_on_search_button()&amp#27;[0m
+The product has been added to your shopping cart successfully
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Add to Cart button&amp#27;[0m                                                        &amp#27;[90m# StepDefinition.$3_SearchAddModule.user_clicks_on_add_to_cart_button()&amp#27;[0m
+Searched item found inside cart...
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser added &amp#27;[0m&amp#27;[32m&amp#27;[1mBlack & White Diamond Heart&amp#27;[0m&amp#27;[32m should be added to shoppingCart&amp#27;[0m                  &amp#27;[90m# StepDefinition.$3_SearchAddModule.user_added_should_be_added_to_shoppingcart(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 17002
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 12, 2021 5:40:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Test to validate Add to Cart functionality&quot;, &quot;Optional[Test item Search and Add Functionality on Demo Web Page]&quot;](9)" classname="MyRunner.TestRunner" time="12.471">
+    <system-out><![CDATA[
+Scenario Outline: Test to validate Add to Cart functionality                                   &amp#27;[90m# src/test/java/Features/3_SearchandAdd.feature:27&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser should be on Home Page by logging-in using &amp#27;[0m&amp#27;[32m&amp#27;[1mjohnfletcher@gmail.com&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1mmypass1234$&amp#27;[0m &amp#27;[90m# StepDefinition.$3_SearchAddModule.user_should_be_on_home_page_by_loggingin_using_and(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1mBooks&amp#27;[0m&amp#27;[32m in search bar&amp#27;[0m                                                         &amp#27;[90m# StepDefinition.$3_SearchAddModule.user_enters_in_search_bar(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on search button&amp#27;[0m                                                             &amp#27;[90m# StepDefinition.$3_SearchAddModule.user_clicks_on_search_button()&amp#27;[0m
+No products were found that matched your criteria.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser gets search results&amp#27;[0m                                                                &amp#27;[90m# StepDefinition.$3_SearchAddModule.user_gets_search_results()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 26301
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 12, 2021 5:40:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Test for Verifying ShoppingCart Removing Update&quot;, &quot;Optional[Test the Update Functionality of added product on Demo Web Page]&quot;](10)" classname="MyRunner.TestRunner" time="12.984">
+    <system-out><![CDATA[
+Scenario Outline: Test for Verifying ShoppingCart Removing Update                         &amp#27;[90m# src/test/java/Features/4_UpdateCart.feature:13&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser on Demo Web Shop Home Page with login &amp#27;[0m&amp#27;[32m&amp#27;[1mjohnfletcher@gmail.com&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1mmypass1234$&amp#27;[0m &amp#27;[90m# StepDefinition.$4_UpdateCartModule.user_is_on_demo_web_shop_home_page_with_login_and(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser clicks on shopping cart&amp#27;[0m                                                       &amp#27;[90m# StepDefinition.$4_UpdateCartModule.user_clicks_on_shopping_cart()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser selects &amp#27;[0m&amp#27;[32m&amp#27;[1mHealth Book&amp#27;[0m&amp#27;[32m in Cart&amp#27;[0m                                                    &amp#27;[90m# StepDefinition.$4_UpdateCartModule.user_selects_in_cart(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser checks the respective checkbox of that &amp#27;[0m&amp#27;[32m&amp#27;[1mHealth Book&amp#27;[0m                             &amp#27;[90m# StepDefinition.$4_UpdateCartModule.user_checks_the_respective_checkbox_of_that(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Update shopping cart for removing Product&amp#27;[0m                            &amp#27;[90m# StepDefinition.$4_UpdateCartModule.user_clicks_on_update_shopping_cart_for_removing_product()&amp#27;[0m
+Status of UpdatingCart : 'Deleting items...'
+Items in Cart Before Update : 4
+Items in Cart After Update : 2
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mChecked item should be removed from Cart&amp#27;[0m                                           &amp#27;[90m# StepDefinition.$4_UpdateCartModule.checked_item_should_be_removed_from_cart()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 46944
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 12, 2021 5:41:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Test for Verifying ShoppingCart AddQuantity Update&quot;, &quot;Optional[Test the Update Functionality of added product on Demo Web Page]&quot;](11)" classname="MyRunner.TestRunner" time="13.739">
+    <system-out><![CDATA[
+Scenario Outline: Test for Verifying ShoppingCart AddQuantity Update                      &amp#27;[90m# src/test/java/Features/4_UpdateCart.feature:27&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser on Demo Web Shop Home Page with login &amp#27;[0m&amp#27;[32m&amp#27;[1mjohnfletcher@gmail.com&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1mmypass1234$&amp#27;[0m &amp#27;[90m# StepDefinition.$4_UpdateCartModule.user_is_on_demo_web_shop_home_page_with_login_and(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser clicks on shopping cart&amp#27;[0m                                                       &amp#27;[90m# StepDefinition.$4_UpdateCartModule.user_clicks_on_shopping_cart()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser selects &amp#27;[0m&amp#27;[32m&amp#27;[1m14.1-inch Laptop&amp#27;[0m&amp#27;[32m in Cart&amp#27;[0m                                               &amp#27;[90m# StepDefinition.$4_UpdateCartModule.user_selects_in_cart(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m value of &amp#27;[0m&amp#27;[32m&amp#27;[1m14.1-inch Laptop&amp#27;[0m&amp#27;[32m in itemquantity box&amp#27;[0m                         &amp#27;[90m# StepDefinition.$4_UpdateCartModule.user_enters_value_of_itemquantity_box(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks on Update shopping cart button for AddQuantity update&amp#27;[0m                   &amp#27;[90m# StepDefinition.$4_UpdateCartModule.user_clicks_on_update_shopping_cart_button_for_adding_update()&amp#27;[0m
+AddQuantity update is successful
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser entered &amp#27;[0m&amp#27;[32m&amp#27;[1m14.1-inch Laptop&amp#27;[0m&amp#27;[32m item quantity &amp#27;[0m&amp#27;[32m&amp#27;[1m6&amp#27;[0m&amp#27;[32m is updated&amp#27;[0m                           &amp#27;[90m# StepDefinition.$4_UpdateCartModule.user_entered_item_quantity_is_updated(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 13922
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 12, 2021 5:41:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;&quot;, &quot;Optional[Test Checkout functionality of an item]&quot;](12)" classname="MyRunner.TestRunner" time="10.485">
+    <system-out><![CDATA[
+Scenario Outline:                                                                   &amp#27;[90m# src/test/java/Features/5_CheckOutPage.feature:12&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on Home page by logging with &amp#27;[0m&amp#27;[32m&amp#27;[1mjohnfletcher@gmail.com&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1mmypass1234$&amp#27;[0m &amp#27;[90m# StepDefinition.$5_CheckOutModule.user_is_on_home_page_by_logging_with_and(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks on shoppingCart button&amp#27;[0m                                           &amp#27;[90m# StepDefinition.$5_CheckOutModule.user_clicks_on_shopping_cart_button()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mSelect and enter &amp#27;[0m&amp#27;[32m&amp#27;[1mIndia&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1mOther (Non US)&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m535591&amp#27;[0m                          &amp#27;[90m# StepDefinition.$5_CheckOutModule.select_and_enter_and_and(java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick Estimate Shipping Button&amp#27;[0m                                                &amp#27;[90m# StepDefinition.$5_CheckOutModule.click_estimate_shipping_button()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Checkout button&amp#27;[0m                                                      &amp#27;[90m# StepDefinition.$5_CheckOutModule.click_on_checkout_button()&amp#27;[0m
+User is on billing page....
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should see Billing Page&amp#27;[0m                                                 &amp#27;[90m# StepDefinition.$5_CheckOutModule.user_should_see_billing_page()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 6519
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 12, 2021 5:41:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User to enter billing details&quot;, &quot;Optional[Test Billing Functionality of Demo WebPage]&quot;](13)" classname="MyRunner.TestRunner" time="32.588">
+    <system-out><![CDATA[
+Scenario Outline: User to enter billing details                                                &amp#27;[90m# src/test/java/Features/6_BillingPage.feature:26&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on Home Page by logging in by using the &amp#27;[0m&amp#27;[32m&amp#27;[1mjohnfletcher@gmail.com&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1mmypass1234$&amp#27;[0m &amp#27;[90m# StepDefinition.$6_BillingModule.user_is_on_home_page_by_logging_in_by_using_the_and(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser loggedin navigate to Billing Page&amp#27;[0m                                                  &amp#27;[90m# StepDefinition.$6_BillingModule.user_loggedin_navigate_to_billing_page()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mNow Enter respective  &amp#27;[0m&amp#27;[32m&amp#27;[1mCapgemini&amp#27;[0m                                                          &amp#27;[90m# StepDefinition.$6_BillingModule.now_enter_respective(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mSelect the &amp#27;[0m&amp#27;[32m&amp#27;[1mAustria&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1mOther (Non US)&amp#27;[0m                                                    &amp#27;[90m# StepDefinition.$6_BillingModule.select_the_and(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEnter the &amp#27;[0m&amp#27;[32m&amp#27;[1mLower Austria&amp#27;[0m&amp#27;[32m name&amp#27;[0m                                                             &amp#27;[90m# StepDefinition.$6_BillingModule.enter_the_name(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser Enter the &amp#27;[0m&amp#27;[32m&amp#27;[1mflat 23,Austria,lower bridges&amp#27;[0m&amp#27;[32m details&amp#27;[0m                                     &amp#27;[90m# StepDefinition.$6_BillingModule.user_enter_the_details(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mNow enter the &amp#27;[0m&amp#27;[32m&amp#27;[1m6754321&amp#27;[0m                                                                    &amp#27;[90m# StepDefinition.$6_BillingModule.now_enter_the(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEnter &amp#27;[0m&amp#27;[32m&amp#27;[1m987654321&amp#27;[0m&amp#27;[32m in the field&amp#27;[0m                                                             &amp#27;[90m# StepDefinition.$6_BillingModule.enter_in_the_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mAt last enter the &amp#27;[0m&amp#27;[32m&amp#27;[1m119086534&amp#27;[0m                                                              &amp#27;[90m# StepDefinition.$6_BillingModule.at_last_enter_the(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks-on continue button&amp#27;[0m                                                           &amp#27;[90m# StepDefinition.$6_BillingModule.user_clicks_on_continue_button()&amp#27;[0m
+User is on Shipping page...
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters to shipping step&amp#27;[0m                                                             &amp#27;[90m# StepDefinition.$6_BillingModule.user_enters_to_shipping_step()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser Select a shipping address from your address book or enter a new address&amp#27;[0m             &amp#27;[90m# StepDefinition.$6_BillingModule.user_select_a_shipping_address_from_your_address_book_or_enter_a_new_address()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClickon the continue button&amp#27;[0m                                                              &amp#27;[90m# StepDefinition.$6_BillingModule.clickon_the_continue_button()&amp#27;[0m
+please wait while redirecting...
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mGo to shipping method&amp#27;[0m                                                                    &amp#27;[90m# StepDefinition.$6_BillingModule.go_to_shipping_method()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mclick on the type of shipping method and tick the continue button&amp#27;[0m                        &amp#27;[90m# StepDefinition.$6_BillingModule.click_on_the_type_of_shipping_method_and_tick_the_continue_button()&amp#27;[0m
+Succesfully entered PO number...
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mselect the &amp#27;[0m&amp#27;[32m&amp#27;[1mPO&amp#27;[0m&amp#27;[32m of payment method and press the continue button&amp#27;[0m                            &amp#27;[90m# StepDefinition.$6_BillingModule.select_the_of_payment_method_and_press_the_continue_button(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mpress the  confirm order button&amp#27;[0m                                                          &amp#27;[90m# StepDefinition.$6_BillingModule.press_the_confirm_order_button()&amp#27;[0m
+Your order has been successfully processed!
+Order Summary : 
+Order information
+Print
+PDF Invoice
+Order #1032344
+Order Date: Tuesday, October 12, 2021
+Order Status: Pending
+Order Total: 9670.00
+Billing Address
+john fletcher
+Email: johnfletcher@gmail.com
+Phone: 987654321
+Fax: 119086534
+Capgemini
+flat 23,Austria,lower bridges
+flat 23,Austria,lower bridges
+Lower Austria , 6754321
+Austria
+Payment Method
+Purchase Order
+Purchase Order Number 2257624873548569
+Shipping Address
+john fletcher
+Email: johnfletcher@gmail.com
+Phone: 987654321
+Fax: 119086534
+Capgemini
+flat 23,Austria,lower bridges
+flat 23,Austria,lower bridges
+Lower Austria , 6754321
+Austria
+Shipping Method
+Next Day Air
+Product(s)
+Name Price Quantity Total
+14.1-inch Laptop 1590.00 6 9540.00
+Black & White Diamond Heart 130.00 1 130.00
+Sub-Total: 9670.00
+Shipping: 0.00
+Tax: 0.00
+Order Total: 9670.00
+All saved records deleted successfully!....
+Please wait!..we are closing all tabs...
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser is able to see placed order details&amp#27;[0m                                                &amp#27;[90m# StepDefinition.$6_BillingModule.user_is_able_to_see_placed_order_details()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 10648
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 12, 2021 5:41:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
