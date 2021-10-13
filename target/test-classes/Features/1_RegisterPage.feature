@@ -15,7 +15,7 @@ And User Clicks on Register button
 Then User is succesfully registered
 Examples: 
       |gender|firstname|lastname|email|password|confirmpass|
-      |male|Surya|Kalyan|irdinesh@gmail.com|surya1234|surya1234|
+      |male|Dinesh|Krishna|iradinesh@gmail.com|dinesh1234|dinesh1234|
 
 Scenario Outline: Test Registration process with inValid credintials
 Given User is on DemoWebShop page
